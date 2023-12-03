@@ -1,0 +1,76 @@
+body {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+#content {
+    margin: 0 20%;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+
+#add-btn {
+    background-color: #0564BD;
+    color: #FFF;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#add-btn:hover {
+    background-color: #044079;
+}
+
+ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+ul li {
+    padding: 12px 8px 12px 40px;
+    list-style: none;
+    background-color: #eee;
+}
+
+ul li:nth-child(odd) {
+    background-color: #ddd;
+}
+
+ul li:hover {
+    background-color: #726E6E;
+    color: #FFF;
+}
+
+span.span-btns {
+    float:right;
+}
+
+.span-btns span {
+    text-align: center;
+    padding: 1px 8px;
+    float: right;
+    
+}
+
+.span-btns span:hover {
+    cursor: pointer;
+    background-color: #474747;
+}
+
+p.errorMessage{
+    color: red;
+    padding: 10px;
+    background-color: #eee;
+}
